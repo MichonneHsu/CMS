@@ -1,2 +1,2 @@
 # CMS
-A simple PHP framework made by myself,but still in progress!
+A simple PHP framework made by myself,and it is still in progress!
