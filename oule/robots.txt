@@ -1,0 +1,5 @@
+User-agent: * 
+
+Allow:/*htm$
+
+Disallow:/?m=index
