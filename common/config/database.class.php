@@ -84,8 +84,8 @@ class database{
         mysqli_free_result($res);
     }
     public function close(){
-        if( !mysql_close($this->conn) ) {
-           mysql_close($this->conn);
+        if( !mysqli_close($this->conn) ) {
+           mysqli_close($this->conn);
         }
 
     }

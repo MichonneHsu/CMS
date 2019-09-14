@@ -37,8 +37,10 @@ class verify
 
         return $verify_codes;
     }
-    public function getvc(){
-       return strtolower($this->verify_code());
+     public function getvc(){
+        $modified_codes=strtolower($this->verify_code());
+        $_SESSION['abc']=$modified_codes;
+       return $modified_codes;
     }
     public function check_codes($codes){
         if($codes==$_SESSION['verify_codes']){
