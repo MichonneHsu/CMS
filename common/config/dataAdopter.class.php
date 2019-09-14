@@ -4,6 +4,7 @@ include_once 'database.class.php';
 /***
  * SimplePhp
  * By Michonne
+ * oh my god
  */
 class dataAdopter extends database {
     /**
